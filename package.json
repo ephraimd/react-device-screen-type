@@ -1,6 +1,6 @@
 {
   "name": "@ephraimd/react-device-screen-type",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple and adaptive device screen detection react hook library. Very useful for accurate device screen profile detection",
   "author": "ephraimd",
   "license": "Apache-2.0",
