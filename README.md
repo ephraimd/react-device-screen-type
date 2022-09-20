@@ -41,5 +41,5 @@ const Component = () => {
 
 The hook automatically updates the screen types when window is resized, this makes it easy to adapt pages to any type of screen orientation on the fly without extra boilerplate code.
 
-## Thanks
+## Enjoy
 Enjoy as you use this library.
