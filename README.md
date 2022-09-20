@@ -23,16 +23,17 @@ pnpm install @ephraimd/react-device-screen-type
 ## Usage
 
 ```tsx
-import useDeviceSize from "@ephraimd/react-device-screen-type";
+import useDeviceScreenType from "@ephraimd/react-device-screen-type";
 
 const Component = () => {
+  const deviceScreenType = useDeviceScreenType();
   return (
     <>
-      {deviceSize.isExtraLargeDesktop && <h1>EXTRA LARGE!!</h1>}
-      {deviceSize.isLargeDesktop && <h1>LARGE!!</h1>}
-      {deviceSize.isMediumDesktop && <h1>MEDIUM LARGE!!</h1>}
-      {deviceSize.isTablet && <h1>Tablet Size!!</h1>}
-      {deviceSize.isMobile && <h1>Mobile Phones size</h1>}
+      {deviceScreenType.isExtraLargeDesktop && <h1>EXTRA LARGE!!</h1>}
+      {deviceScreenType.isLargeDesktop && <h1>LARGE!!</h1>}
+      {deviceScreenType.isMediumDesktop && <h1>MEDIUM LARGE!!</h1>}
+      {deviceScreenType.isTablet && <h1>Tablet Size!!</h1>}
+      {deviceScreenType.isMobile && <h1>Mobile Phones size</h1>}
     </>
   );
 };
