@@ -23,7 +23,7 @@ pnpm install @ephraimd/react-device-screen-type
 ## Usage
 
 ```tsx
-import useDeviceScreenType from "@ephraimd/react-device-screen-type";
+import { useDeviceScreenType } from "@ephraimd/react-device-screen-type";
 
 const Component = () => {
   const deviceScreenType = useDeviceScreenType();
