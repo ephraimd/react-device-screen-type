@@ -79,6 +79,7 @@ export function useDeviceScreenType(): IDeviceScreenType {
       update();
     })
     update();
+    return () => window.removeEventListener("resize", update);
   }, []);
 
   return {
